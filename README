@@ -1,0 +1,17 @@
+NodeJS shell script using initializr/html5boilerplate API to quickly generate project setups.
+
+What it does:
+
+	Usage: new.js <project_name> [option1, option2...]
+	Options are:
+	 * JavaScript: no-js, no-jq, jqdev
+	 * IE support: no-cond, oldie
+	 * Mobile support: hand
+	 * HTML5 Compatibilty: shiv, no-compat
+	 * Server config: htaccess, webconfig, nginx
+	 * Statistics: analytics
+
+	Example: new.js no-jq no-cond hand no-compat
+	See http://html5boilerplate.com/ and http://initializr.com/ for more detail.
+
+Requirements: NodeJS, curl, unzip, git.
