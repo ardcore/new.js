@@ -11,7 +11,7 @@ What it does:
 	 * Server config: htaccess, webconfig, nginx
 	 * Statistics: analytics
 
-	Example: new.js no-jq no-cond hand no-compat
+	Example: new.js test no-jq no-cond hand no-compat
 	See http://html5boilerplate.com/ and http://initializr.com/ for more detail.
 
 Requirements: NodeJS, curl, unzip, git.
