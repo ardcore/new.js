@@ -1,7 +1,6 @@
 #!/usr/local/bin/node
 
 (function(global) {
-
 	var exec = require('child_process').exec
 		, initializr_url = 'http://initializr.com/generate/?'
 		, curl_command = 'curl -s "#URL#" > initializr.zip'
