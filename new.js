@@ -3,7 +3,7 @@
 (function(global) {
 
 	var exec = require('child_process').exec
-		, initializr_url = 'http://initializr.com/generate/?boilerplate'
+		, initializr_url = 'http://initializr.com/generate/?'
 		, curl_command = 'curl -s "#URL#" > initializr.zip'
 		, mkdir_command = 'mkdir #NAME#'
 		, unzip_command = 'unzip initializr.zip'
@@ -12,6 +12,7 @@
 		, params = process.argv.slice(2)
 		, project_name
 		, initializr_options = {
+			'Boilerplate': ['boilerplate'],
 			'JavaScript': ['no-js', 'no-jq', 'jqdev'],
 			'IE support': ['no-cond', 'oldie'],
 			'Mobile support': ['hand'],
