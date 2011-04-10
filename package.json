@@ -1,0 +1,15 @@
+{ "name" : "new"
+, "description" : "Shell script using initializr/html5boilerplate API to quickly generate project setups."
+, "keywords" : [ "html5", "html5boilerplate", "initializr", "shell"  ]
+, "version" : "0.1.1"
+, "author" : "Szymon Pilkowski <szymon.pilkowski@gmail.com> (http://twitter.com/ard)"
+, "repository" :
+  { "type" : "git"
+  , "url" : "http://github.com/ardcore/new.js.git"
+  }
+, "bugs" :
+  { "mail" : "szymon.pilkowski@gmail.com"
+  , "web" : "https://github.com/ardcore/new.js/issues"
+  }
+, "bin" : "./new.js"
+}

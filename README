@@ -2,6 +2,8 @@ NodeJS shell script using initializr/html5boilerplate API to quickly generate pr
 
 What it does:
 
+	Install: npm install new (or clone this repo)
+
 	Usage: new.js <project_name> [option1, option2...]
 	 * Boilerplate: boilerplate
 	 * JavaScript: no-js, no-jq, jqdev
